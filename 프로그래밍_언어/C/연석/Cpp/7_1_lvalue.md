@@ -1,1 +1,12 @@
 # l-value, r-value
+- 출처 : docs.microsoft.com
+- 모든 C++ 식에는 형식이 있으며 값 범주에 속한다.
+  - 값 범주는 식 평가 중에 임시 개체를 만들고 복사하고 이동할 때 컴파일러가 따라야 하는 규칙의 기초이다.
+  - C++17 표준엔 다음과 같이 식 값 범주를 정의한다.
+    - ```glvalue``` : is an expression whose evaluation determines the identity of an object, bit-field, or function.
+    - ```prvalue``` : is an expression whose evaluation initializes an object or a bit-field, or computes the value of the operand of an operator, as specified by the context in which it appears.
+    - ```xvalue``` : is a glvalue that denotes an object or bit-field whise resources can be reused (usually because it is near the end of its lifetime).
+      - Ex : Certain kinds of expressions involving rvalue references yield xvalues, such as a call to a function whose return thype is an rvalue reference or a cast to an rvalue reference type.
+    - ```lvalue``` : is a glvalue that is not an xvalue.
+    - ```rvalue``` : is a prvalue or an xvalue.
+  - ![image](https://user-images.githubusercontent.com/49339278/156163906-93f32173-73d7-4bb6-930b-dc123863f957.png)
