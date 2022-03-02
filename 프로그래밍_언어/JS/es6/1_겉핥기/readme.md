@@ -1,5 +1,5 @@
 # 겉핥기
-- 학
+- 학습용
 - [참조한 자료 홈페이지 1](https://velog.io/@kimhscom/JavaScript-%EC%9E%90%EC%A3%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-ES6-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC)
 - [참조한 자료 홈페이지 2](https://velog.io/@hyeonyohwan/JavaScript-ES6-%EB%AC%B8%EB%B2%95)
 # intro
